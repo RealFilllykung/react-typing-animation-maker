@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-typing-animation-maker/static/css/main.a617e044.chunk.css",
+    "main.js": "/react-typing-animation-maker/static/js/main.73571d20.chunk.js",
+    "main.js.map": "/react-typing-animation-maker/static/js/main.73571d20.chunk.js.map",
+    "runtime-main.js": "/react-typing-animation-maker/static/js/runtime-main.d0b60c64.js",
+    "runtime-main.js.map": "/react-typing-animation-maker/static/js/runtime-main.d0b60c64.js.map",
+    "static/css/2.818011ed.chunk.css": "/react-typing-animation-maker/static/css/2.818011ed.chunk.css",
+    "static/js/2.1c616e67.chunk.js": "/react-typing-animation-maker/static/js/2.1c616e67.chunk.js",
+    "static/js/2.1c616e67.chunk.js.map": "/react-typing-animation-maker/static/js/2.1c616e67.chunk.js.map",
+    "static/js/3.b6ed6807.chunk.js": "/react-typing-animation-maker/static/js/3.b6ed6807.chunk.js",
+    "static/js/3.b6ed6807.chunk.js.map": "/react-typing-animation-maker/static/js/3.b6ed6807.chunk.js.map",
+    "index.html": "/react-typing-animation-maker/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/react-typing-animation-maker/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/react-typing-animation-maker/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.1c616e67.chunk.js.LICENSE.txt": "/react-typing-animation-maker/static/js/2.1c616e67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0b60c64.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.1c616e67.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.73571d20.chunk.js"
+  ]
+}
