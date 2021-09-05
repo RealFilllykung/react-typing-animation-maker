@@ -1,19 +1,14 @@
-import { useState } from "react"
-import { Col, FloatingLabel, Form, Row, Button } from "react-bootstrap"
-import TypingAnimationDisplayer from "./TypingAnimationDisplayer"
+
+import { Col, FloatingLabel, Form, Row } from "react-bootstrap"
 
 function InputAnimationDetail(props){
 
-    const inputText = props.input
     const setInputText = props.setInputText
 
-    const appearSeconds = props.appearSeconds
     const setAppearSeconds = props.setAppearSeconds
 
-    const disappearSeconds = props.disappearSeconds
     const setDisappearSeconds = props.setDisappearSeconds
 
-    const [] = useState('')
 
     function handleChange(e,type){
         const value = e.target.value

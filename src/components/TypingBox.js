@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import InputAnimationDetail from "./InputAnimationDetail"
 import TypingAnimationDisplayer from "./TypingAnimationDisplayer"
 
