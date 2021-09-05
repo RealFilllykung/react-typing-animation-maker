@@ -5,7 +5,17 @@ import TypingBox from './components/TypingBox';
 function App() {
   return (
     <div className="App">
-      <TypingBox></TypingBox>
+      <div 
+        style={{
+          backgroundColor:"#00ff00", 
+          minHeight:"100vh",
+          minWidth: "100vw",
+          display:"flex"
+        }}
+      >
+        <TypingBox></TypingBox>
+      </div>
+      
     </div>
   );
 }

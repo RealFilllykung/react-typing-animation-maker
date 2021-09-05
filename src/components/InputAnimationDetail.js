@@ -24,18 +24,16 @@ function InputAnimationDetail(props){
         else if (type === 'disappearSeconds') setDisappearSeconds(number*1000)
     }
 
-    function handleClick(e){
-        
-    }
-
     return (
         <div>
             <Row>
                 <Col md>
                     <FloatingLabel label="Text">
-                        <Form.Control placeholder="Text" type="text" onChange={(e) => handleChange(e,'inputText')}></Form.Control>
+                        <Form.Control placeholder="Text" type="text" as="textarea" rows={3} onChange={(e) => handleChange(e,'inputText')}></Form.Control>
                     </FloatingLabel>
                 </Col>
+            </Row>
+            <Row>
                 <Col md>
                     <FloatingLabel label="Appear second(s)">
                         <Form.Control placeholder="seconds" type="number" onChange={(e) => handleChange(e,'appearSeconds')}></Form.Control>

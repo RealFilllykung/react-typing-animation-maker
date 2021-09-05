@@ -15,18 +15,25 @@ function TypingBox(){
 
     return (
         <div>
-            <InputAnimationDetail
-                inputText = {inputText}
-                setInputText = {setInputText}
+            <div style={{
+                minWidth:"100vw"
+            }}>
+                <InputAnimationDetail
+                    inputText = {inputText}
+                    setInputText = {setInputText}
 
-                appearSeconds = {appearSeconds}
-                setAppearSeconds = {setAppearSeconds}
+                    appearSeconds = {appearSeconds}
+                    setAppearSeconds = {setAppearSeconds}
 
-                disappearSeconds = {disappearSeconds}
-                setDisappearSeconds = {setDisappearSeconds}
-            ></InputAnimationDetail>
-
-            <RenderAnimation></RenderAnimation>
+                    disappearSeconds = {disappearSeconds}
+                    setDisappearSeconds = {setDisappearSeconds}
+                ></InputAnimationDetail>
+            </div>
+            
+            <div>
+                <RenderAnimation></RenderAnimation>
+            </div>
+            
         </div>
         
     )
